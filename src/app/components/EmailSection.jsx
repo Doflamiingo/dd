@@ -28,7 +28,7 @@ const EmailSection = () => {
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
           {" "}
-          Lorem
+        
         </p>
         <div className="socials flex flex-row gap-2 ">
           <Link href="https://instagram.com/le_r.dev?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr" target="blank">

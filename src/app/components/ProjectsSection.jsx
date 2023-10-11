@@ -10,7 +10,7 @@ const projectsData = [
     title: "Power Up Invest",
     description: "Cours de trading et copy trading",
     image: "/images/projects/1.png",
-    tag: ["Tous", "Wordpress"],
+    tag: ["Tous", "CMS"],
     gitUrl: "/",
     previewUrl: "https://powerup-invest.fr/",
   },
@@ -19,7 +19,7 @@ const projectsData = [
     title: "Lykanza",
     description: "E-commerce de bracelet lithothérapie",
     image: "/images/projects/2.png",
-    tag: ["Tous", "Wordpress"],
+    tag: ["Tous", "CMS"],
     gitUrl: "/",
     previewUrl: "https://lykanza.fr/",
   },
@@ -29,7 +29,7 @@ const projectsData = [
     title: "Skeep",
     description: "Site de coiffeur (en maintenance)",
     image: "/images/projects/3.png",
-    tag: ["Tous", "Wordpress"],
+    tag: ["Tous", "CMS"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -38,7 +38,7 @@ const projectsData = [
     title: "Raphaël",
     description: "Portfolio ReactJS",
     image: "/images/projects/4.png",
-    tag: ["Tous", "From scratch"],
+    tag: ["Tous", "JS"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -76,13 +76,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Wordpress"
-          isSelected={tag === "Wordpress"}
+          name="CMS"
+          isSelected={tag === "CMS"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="From scratch"
-          isSelected={tag === "From scratch"}
+          name="JS"
+          isSelected={tag === "JS"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
